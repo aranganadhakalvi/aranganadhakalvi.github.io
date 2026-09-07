@@ -25,7 +25,7 @@
     "@type": "Organization",
     "name": "AranganadhaKalvi",
     "url": "https://www.aranganadhakalvi.com/",
-    "logo": "https://www.aranganadhakalvi.com/assets/img/logo.png",
+    "logo": "/assets/img/logo.png",
     "contactPoint": {
         "@type": "ContactPoint",
         "email": "{{ config('offices.email') }}",
@@ -48,7 +48,7 @@
     <link rel="canonical" href="https://www.aranganadhakalvi.com">
 
     <!-- Favicon -->
-    <link rel="icon" href="https://www.aranganadhakalvi.com/assets/img/logo.png" type="image/png">
+    <link rel="icon" href="/assets/img/logo.png" type="image/png">
 
     <meta name="description" content="AranganadhaKalvi is a gateway to top internships in tech, marketing, finance, design, startups, &amp; more. Join AranganadhaKalvi for career-boosting opportunities, skill-building &amp; real-world experience.">
     <meta name="author" content="AranganadhaKalvi">
@@ -110,7 +110,7 @@
                 "name": "AranganadhaKalvi",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "https://www.aranganadhakalvi.com/assets/img/logo.png"
+                    "url": "/assets/img/logo.png"
                 }
             }
         }
@@ -136,7 +136,7 @@
 
             
             <a href="/" class="flex items-center gap-2.5 shrink-0">
-                <img src="https://www.aranganadhakalvi.com/assets/img/logo.png" class="h-9 w-auto" alt="AranganadhaKalvi">
+                <img src="/assets/img/logo.png" class="h-9 w-auto" alt="AranganadhaKalvi">
                 
             </a>
 
@@ -153,18 +153,18 @@
                     <div x-show="open" x-transition x-cloak
                         class="absolute top-full left-1/2 -translate-x-1/2 pt-[10px] w-64">
                         <div class="max-h-[60vh] overflow-y-auto bg-white border border-slate-100 rounded-2xl shadow-2xl p-2">
-                                                            <a href="https://www.aranganadhakalvi.com/sectors/python"
+                                                            <a href="/sector/python"
                                     class="block px-3 py-2 rounded-lg text-sm text-slate-600 hover:bg-orange-50 hover:text-orange-600 transition">Internships in Python</a>
-                                                            <a href="https://www.aranganadhakalvi.com/sectors/genai"
+                                                            <a href="/sector/genai"
                                     class="block px-3 py-2 rounded-lg text-sm text-slate-600 hover:bg-orange-50 hover:text-orange-600 transition">Internships in GenAI</a>
                                                             
                                                     </div>
                     </div>
                 </li>
 
-                <li><a href="https://www.aranganadhakalvi.com/about-us" class="px-3 py-2 rounded-lg text-slate-700 hover:text-orange-600 hover:bg-orange-50 transition">About Us</a></li>
+                <li><a href="/about-us.html" class="px-3 py-2 rounded-lg text-slate-700 hover:text-orange-600 hover:bg-orange-50 transition">About Us</a></li>
                 
-                <li><a href="https://www.aranganadhakalvi.com/contact-us" class="px-3 py-2 rounded-lg text-slate-700 hover:text-orange-600 hover:bg-orange-50 transition">Contact Us</a></li>
+                <li><a href="/contact-us.html" class="px-3 py-2 rounded-lg text-slate-700 hover:text-orange-600 hover:bg-orange-50 transition">Contact Us</a></li>
             </ul>
 
             
@@ -187,7 +187,7 @@
                 </div>
 
                                     <a href="/login" class="hidden sm:inline-flex items-center rounded-full border border-slate-200 text-slate-700 font-semibold text-sm px-4 py-2.5 hover:border-orange-500 hover:text-orange-600 transition">Sign In</a>
-                    <a href="https://www.aranganadhakalvi.com/registration" class="hidden sm:inline-flex items-center rounded-full bg-gradient-to-r from-orange-600 to-amber-600 text-white font-semibold text-sm px-5 py-2.5 shadow-lg shadow-orange-600/30 hover:-translate-y-0.5 transition">Get Started</a>
+                    <a href="/registration.html" class="hidden sm:inline-flex items-center rounded-full bg-gradient-to-r from-orange-600 to-amber-600 text-white font-semibold text-sm px-5 py-2.5 shadow-lg shadow-orange-600/30 hover:-translate-y-0.5 transition">Get Started</a>
                 
                 
                 <button type="button" @click="mobileOpen = !mobileOpen" class="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-50 text-slate-700">
@@ -212,18 +212,18 @@
                     Explore Internships <i class="fas fa-chevron-down text-[10px] transition" :class="open && 'rotate-180'"></i>
                 </button>
                 <div x-show="open" x-collapse class="pl-3 max-h-64 overflow-y-auto">
-                                            <a href="https://www.aranganadhakalvi.com/sectors/python" class="block px-3 py-2 rounded-lg text-sm text-slate-600 hover:bg-orange-50 hover:text-orange-600">Internships in Python</a>
-                                            <a href="https://www.aranganadhakalvi.com/sectors/genai" class="block px-3 py-2 rounded-lg text-sm text-slate-600 hover:bg-orange-50 hover:text-orange-600">Internships in GenAI</a>
+                                            <a href="/sector/python.html" class="block px-3 py-2 rounded-lg text-sm text-slate-600 hover:bg-orange-50 hover:text-orange-600">Internships in Python</a>
+                                            <a href="/sectors/genai.html" class="block px-3 py-2 rounded-lg text-sm text-slate-600 hover:bg-orange-50 hover:text-orange-600">Internships in GenAI</a>
                                             
                                     </div>
             </div>
 
-            <a href="https://www.aranganadhakalvi.com/about-us" class="block px-3 py-2.5 rounded-lg font-medium text-slate-700 hover:bg-orange-50 hover:text-orange-600">About Us</a>
+            <a href="/about-us.html" class="block px-3 py-2.5 rounded-lg font-medium text-slate-700 hover:bg-orange-50 hover:text-orange-600">About Us</a>
             
-            <a href="https://www.aranganadhakalvi.com/contact-us" class="block px-3 py-2.5 rounded-lg font-medium text-slate-700 hover:bg-orange-50 hover:text-orange-600">Contact Us</a>
+            <a href="/contact-us.html" class="block px-3 py-2.5 rounded-lg font-medium text-slate-700 hover:bg-orange-50 hover:text-orange-600">Contact Us</a>
 
             <div class="pt-2">
-                                    <a href="https://www.aranganadhakalvi.com/registration" class="block text-center px-3 py-2.5 rounded-full bg-gradient-to-r from-orange-600 to-amber-600 text-white font-semibold mb-2"><i class="fas fa-user-plus me-2"></i> Get Started</a>
+                                    <a href="/registration.html" class="block text-center px-3 py-2.5 rounded-full bg-gradient-to-r from-orange-600 to-amber-600 text-white font-semibold mb-2"><i class="fas fa-user-plus me-2"></i> Get Started</a>
                     <a href="/login" class="block text-center px-3 py-2.5 rounded-full border border-slate-200 text-slate-700 font-semibold"><i class="fas fa-sign-in-alt me-2"></i> Log In</a>
                             </div>
         </div>
@@ -477,11 +477,11 @@
                   <span class="bg-orange-50 text-orange-600 text-xs font-bold px-3 py-1.5 rounded-full">Virtual</span>
                 </div>
                 <div class="w-14 h-14 rounded-2xl bg-slate-50 grid place-items-center mb-4 overflow-hidden">
-                  <a href="https://www.aranganadhakalvi.com/sector/python-internships"></a>
+                  <a href="/internship/python-for-genai.html"></a>
                 </div>
                 <h4 class="text-base font-bold leading-snug mb-2">
                   <a
-                    href="https://www.aranganadhakalvi.com/sector/python-internships"
+                    href="/internship/python-for-genai.html"
                     class="text-slate-900 hover:text-amber-600 transition"
                   >
                     Python for GenAI
@@ -496,7 +496,7 @@
                     2 Weeks
                   </span>
                   <a
-                    href="https://www.aranganadhakalvi.com/sector/python-internship"
+                    href="/internship/python-for-genai.html"
                     class="text-sm font-bold text-amber-600 hover:text-amber-700"
                   >
                     View Details
@@ -514,11 +514,11 @@
                   <span class="bg-orange-50 text-orange-600 text-xs font-bold px-3 py-1.5 rounded-full">Virtual</span>
                 </div>
                 <div class="w-14 h-14 rounded-2xl bg-slate-50 grid place-items-center mb-4 overflow-hidden">
-                  <a href="https://www.aranganadhakalvi.com/sector/genai-internships"></a>
+                  <a href="/internship/generative-ai.html"></a>
                 </div>
                 <h4 class="text-base font-bold leading-snug mb-2">
                   <a
-                    href="https://www.aranganadhakalvi.com/sector/genai-internships"
+                    href="/internship/generative-ai.html"
                     class="text-slate-900 hover:text-amber-600 transition"
                   >
                     Generative Artificial Intelligence Internship
@@ -533,7 +533,7 @@
                     8 Weeks
                   </span>
                   <a
-                    href="https://www.aranganadhakalvi.com/sector/genai-internships"
+                    href="/internship/generative-ai.html"
                     class="text-sm font-bold text-amber-600 hover:text-amber-700"
                   >
                     View Details
@@ -551,11 +551,11 @@
                   <span class="bg-orange-50 text-orange-600 text-xs font-bold px-3 py-1.5 rounded-full">Virtual</span>
                 </div>
                 <div class="w-14 h-14 rounded-2xl bg-slate-50 grid place-items-center mb-4 overflow-hidden">
-                  <a href="https://www.aranganadhakalvi.com/sector/python-internship"></a>
+                  <a href="/internship/python-basic-advanced.html"></a>
                 </div>
                 <h4 class="text-base font-bold leading-snug mb-2">
                   <a
-                    href="https://www.aranganadhakalvi.com/sector/python-internship"
+                    href="/internship/python-basic-advanced.html"
                     class="text-slate-900 hover:text-amber-600 transition"
                   >
                     Complete Python Basic & Advanced
@@ -570,7 +570,7 @@
                     6 Weeks
                   </span>
                   <a
-                    href="https://www.aranganadhakalvi.com/sector/python-internship"
+                    href="/internship/python-basic-advanced.html"
                     class="text-sm font-bold text-amber-600 hover:text-amber-700"
                   >
                     View Details
@@ -849,7 +849,7 @@
 
             
             <div class="col-span-2 lg:col-span-2">
-                <img src="https://www.aranganadhakalvi.com/assets/img/logo.png" class="h-8 w-auto mb-2" alt="AranganadhaKalvi">
+                <img src="/assets/img/logo.png" class="h-8 w-auto mb-2" alt="AranganadhaKalvi">
                 <p class="text-sm text-slate-500 leading-snug mb-3 max-w-xs">
                     India’s free virtual internship platform for students &amp; freshers.
                 </p>
@@ -865,10 +865,10 @@
             <div>
                 <h5 class="text-slate-900 font-bold text-sm mb-3">Top Sectors</h5>
                 <ul class="space-y-2 list-none p-0 m-0">
-                                            <li><a href="https://www.aranganadhakalvi.com/sectors/python" class="text-sm text-slate-500 hover:text-orange-600 transition">Internships in Python</a></li>
-                                            <li><a href="https://www.aranganadhakalvi.com/sectors/genai" class="text-sm text-slate-500 hover:text-orange-600 transition">Internships in Generative AI</a></li>
+                                            <li><a href="/sector/python.html" class="text-sm text-slate-500 hover:text-orange-600 transition">Internships in Python</a></li>
+                                            <li><a href="/sector/genai.html" class="text-sm text-slate-500 hover:text-orange-600 transition">Internships in Generative AI</a></li>
                                             
-                                        <li><a href="https://www.aranganadhakalvi.com/sectors" class="text-sm font-semibold text-orange-600 hover:text-orange-700 transition">View all sectors</a></li>
+                                        <li><a href="/sectors" class="text-sm font-semibold text-orange-600 hover:text-orange-700 transition">View all sectors</a></li>
                 </ul>
             </div>
 
@@ -889,9 +889,9 @@
             <div>
                 <h5 class="text-slate-900 font-bold text-sm mb-3">Company</h5>
                 <ul class="space-y-2 list-none p-0 m-0">
-                    <li><a href="https://www.aranganadhakalvi.com/about-us" class="text-sm text-slate-500 hover:text-orange-600 transition">About Us</a></li>
-                    <li><a href="https://www.aranganadhakalvi.com/privacy-policy" class="text-sm text-slate-500 hover:text-orange-600 transition">Privacy Policy</a></li>
-                    <li><a href="https://www.aranganadhakalvi.com/contact-us" class="text-sm text-slate-500 hover:text-orange-600 transition">Contact Us</a></li>
+                    <li><a href="/about-us.html" class="text-sm text-slate-500 hover:text-orange-600 transition">About Us</a></li>
+                    <li><a href="/privacy-policy.html" class="text-sm text-slate-500 hover:text-orange-600 transition">Privacy Policy</a></li>
+                    <li><a href="/contact-us.html" class="text-sm text-slate-500 hover:text-orange-600 transition">Contact Us</a></li>
                 </ul>
             </div>
 
@@ -915,7 +915,7 @@
     </div>
 
     <!-- jQuery + Popper + Bootstrap JS (kept so Bootstrap modals keep working) -->
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://www.aranganadhakalvi.com/assets/js/jquery.min.js"></script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/assets/js/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Alpine.js (for header dropdown / mobile menu) -->
