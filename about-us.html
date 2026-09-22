@@ -1,0 +1,1256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="google-site-verification" content="XYpquL63HWKrmNphuGzNeLgTmRKGQgFCjvNyiSxvGhA" />
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CWSCH287KK"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-CWSCH287KK');
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "AranganadhaKalvi",
+    "url": "https://www.aranganadhakalvi.com/",
+    "logo": "/assets/img/logo.png",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "{{ config('offices.email') }}",
+        "contactType": "customer service",
+        "areaServed": "IN",
+        "availableLanguage": "en"
+    },
+    "sameAs": [
+        <!-- "https://www.linkedin.com/company/AranganadhaKalvi/", -->
+        "https://www.youtube.com/@AranganadhaKalvi",
+        <!-- "https://x.com/AranganadhaKalvi" -->
+    ]
+}
+</script>
+
+
+    <title>About AranganadhaKalvi</title>
+
+    
+    <link rel="canonical" href="https://www.aranganadhakalvi.com">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/img/logo.png" type="image/png">
+
+    <meta name="description" content="AranganadhaKalvi is a gateway to top internships in tech, marketing, finance, design, startups, &amp; more. Join AranganadhaKalvi for career-boosting opportunities, skill-building &amp; real-world experience.">
+    <meta name="author" content="AranganadhaKalvi">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="keywords" content="Virtual Internship, Internship, Job Simulation, AranganadhaKalvi, Online Internship, Internship Platform, Remote Internship, Internship Opportunities, Free Internship, Internship Training">
+
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+                    },
+                },
+            },
+        };
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome (for icons used in header/footer/content) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Bootstrap CSS (kept so Bootstrap modals/components still render correctly) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        [x-cloak] { display: none !important; }
+        body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+    </style>
+
+        
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "https://www.aranganadhakalvi.com",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.aranganadhakalvi.com/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "AranganadhaKalvi",
+            "description": "India’s Virtual Internship Platform that offers free internships for job readiness.",
+            "publisher": {
+                "@type": "Organization",
+                "name": "AranganadhaKalvi",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "/assets/img/logo.png"
+                }
+            }
+        }
+    </script>
+    
+
+
+
+    </head>
+
+
+
+  <body class="bg-white text-slate-800 antialiased">
+    <div id="main-wrapper" class="relative min-h-screen flex flex-col">
+
+
+      
+
+<!-- Header (Tailwind) -->
+        <header class="sticky top-0 z-[1000] bg-white border-b border-slate-100 shadow-sm" x-data="{ mobileOpen: false }">
+    <div class="max-w-7xl mx-auto px-4">
+        <nav class="flex items-center justify-between gap-4 h-16">
+
+            
+            <a href="/" class="flex items-center gap-2.5 shrink-0">
+                <img src="/assets/img/logo.png" class="h-9 w-auto" alt="AranganadhaKalvi">
+                
+            </a>
+
+            
+            <ul class="hidden lg:flex items-center gap-1 list-none m-0 p-0 text-[15px] font-medium">
+                <li><a href="/" class="px-3 py-2 rounded-lg text-slate-700 hover:text-orange-600 hover:bg-orange-50 transition">Home</a></li>
+
+                <li class="relative" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                    <a href="/search-internship.html" class="flex items-center gap-1.5 px-3 py-2 rounded-lg text-slate-700 hover:text-orange-600 hover:bg-orange-50 transition">
+                        Explore Internships
+                        <i class="fas fa-chevron-down text-[10px] text-slate-400 transition" :class="open && 'rotate-180'"></i>
+                    </a>
+                    
+                    <div x-show="open" x-transition x-cloak
+                        class="absolute top-full left-1/2 -translate-x-1/2 pt-[10px] w-64">
+                        <div class="max-h-[60vh] overflow-y-auto bg-white border border-slate-100 rounded-2xl shadow-2xl p-2">
+                                                            <a href="/sector/python.html"
+                                    class="block px-3 py-2 rounded-lg text-sm text-slate-600 hover:bg-orange-50 hover:text-orange-600 transition">Internships in Python</a>
+                                                            <a href="/sector/genai.html"
+                                    class="block px-3 py-2 rounded-lg text-sm text-slate-600 hover:bg-orange-50 hover:text-orange-600 transition">Internships in GenAI</a>
+                                                            
+                                                    </div>
+                    </div>
+                </li>
+
+                <li><a href="/about-us.html" class="px-3 py-2 rounded-lg text-slate-700 hover:text-orange-600 hover:bg-orange-50 transition">About Us</a></li>
+                
+                <li><a href="/contact-us.html" class="px-3 py-2 rounded-lg text-slate-700 hover:text-orange-600 hover:bg-orange-50 transition">Contact Us</a></li>
+            </ul>
+
+            
+            <div class="flex items-center gap-2">
+                
+                <div class="hidden lg:block relative" x-data="{ searchOpen: false }">
+                    <button type="button" @click="searchOpen = !searchOpen; $nextTick(() => searchOpen && $refs.deskSearch.focus())"
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-50 text-slate-600 hover:bg-orange-50 hover:text-orange-600 transition" title="Search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <div x-show="searchOpen" x-transition @click.outside="searchOpen = false" x-cloak
+                        class="absolute right-0 top-[calc(100%+10px)] w-80 bg-white border border-slate-100 rounded-2xl shadow-2xl p-3">
+                        <div class="relative">
+                            <i class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
+                            <input x-ref="deskSearch" type="text" placeholder="Search for Internships" onkeyup="searchInternships(this.value)"
+                                class="w-full rounded-xl border border-slate-200 bg-slate-50 py-2.5 pl-11 pr-4 text-sm outline-none focus:border-orange-500 focus:bg-white transition">
+                            <ul id="search_results" class="mt-2 bg-white rounded-xl overflow-hidden list-none m-0 p-0"></ul>
+                        </div>
+                    </div>
+                </div>
+
+                                    <a href="/login.html" class="hidden sm:inline-flex items-center rounded-full border border-slate-200 text-slate-700 font-semibold text-sm px-4 py-2.5 hover:border-orange-500 hover:text-orange-600 transition">Sign In</a>
+                    <a href="/registration.html" class="hidden sm:inline-flex items-center rounded-full bg-gradient-to-r from-orange-600 to-amber-600 text-white font-semibold text-sm px-5 py-2.5 shadow-lg shadow-orange-600/30 hover:-translate-y-0.5 transition">Get Started</a>
+                
+                
+                <button type="button" @click="mobileOpen = !mobileOpen" class="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-50 text-slate-700">
+                    <i class="fas" :class="mobileOpen ? 'fa-times' : 'fa-bars'"></i>
+                </button>
+            </div>
+        </nav>
+    </div>
+
+    
+    <div x-show="mobileOpen" x-transition x-cloak class="lg:hidden border-t border-slate-100 bg-white">
+        <div class="max-w-7xl mx-auto px-4 py-4 space-y-1">
+            <div class="relative mb-3">
+                <i class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
+                <input type="text" placeholder="Search for Internships" onkeyup="searchInternships(this.value)"
+                    class="w-full rounded-xl border border-slate-200 bg-slate-50 py-2.5 pl-11 pr-4 text-sm outline-none focus:border-orange-500 focus:bg-white">
+            </div>
+            <a href="/" class="block px-3 py-2.5 rounded-lg font-medium text-slate-700 hover:bg-orange-50 hover:text-orange-600">Home</a>
+
+            <div x-data="{ open: false }">
+                <button type="button" @click="open = !open" class="w-full flex items-center justify-between px-3 py-2.5 rounded-lg font-medium text-slate-700 hover:bg-orange-50 hover:text-orange-600">
+                    Explore Internships <i class="fas fa-chevron-down text-[10px] transition" :class="open && 'rotate-180'"></i>
+                </button>
+                <div x-show="open" x-collapse class="pl-3 max-h-64 overflow-y-auto">
+                                            <a href="/sector/python.html" class="block px-3 py-2 rounded-lg text-sm text-slate-600 hover:bg-orange-50 hover:text-orange-600">Internships in Python</a>
+                                            <a href="/sector/genai.html" class="block px-3 py-2 rounded-lg text-sm text-slate-600 hover:bg-orange-50 hover:text-orange-600">Internships in GenAI</a>
+                                            
+                                    </div>
+            </div>
+
+            <a href="/about-us.html" class="block px-3 py-2.5 rounded-lg font-medium text-slate-700 hover:bg-orange-50 hover:text-orange-600">About Us</a>
+            
+            <a href="/contact-us.html" class="block px-3 py-2.5 rounded-lg font-medium text-slate-700 hover:bg-orange-50 hover:text-orange-600">Contact Us</a>
+
+            <div class="pt-2">
+                                    <a href="/registration.html" class="block text-center px-3 py-2.5 rounded-full bg-gradient-to-r from-orange-600 to-amber-600 text-white font-semibold mb-2"><i class="fas fa-user-plus me-2"></i> Get Started</a>
+                    <a href="/login.html" class="block text-center px-3 py-2.5 rounded-full border border-slate-200 text-slate-700 font-semibold"><i class="fas fa-sign-in-alt me-2"></i> Log In</a>
+                            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<div x-data="germanyJobForm()" @open-germany-form.window="open = true" x-cloak>
+    <div x-show="open" class="fixed inset-0 z-[1200] flex items-center justify-center px-4" style="display:none;">
+        <div class="absolute inset-0 bg-black/50" @click="open = false"></div>
+
+        <div class="relative w-full max-w-md bg-white shadow-2xl overflow-hidden" @click.stop
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 translate-y-3"
+            x-transition:enter-end="opacity-100 translate-y-0">
+
+            <button type="button" @click="open = false"
+                class="absolute top-3 right-3 w-8 h-8 grid place-items-center text-slate-400 hover:bg-slate-100 hover:text-slate-700 transition z-10">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="border-b border-slate-200 px-6 py-5">
+                <h3 class="text-lg font-bold text-slate-900 m-0">Want a Job in Germany?</h3>
+                <p class="text-sm text-slate-500 mt-1 m-0">
+                    Leave your details and our team will get in touch with you.
+                </p>
+            </div>
+
+            
+            <div x-show="done" class="px-6 py-10 text-center">
+                <span class="w-12 h-12 bg-green-50 text-green-600 grid place-items-center text-2xl mx-auto mb-4">
+                    <i class="fa-solid fa-circle-check"></i>
+                </span>
+                <p class="font-bold text-slate-900 m-0">Thank you!</p>
+                <p class="text-sm text-slate-500 mt-1" x-text="message"></p>
+                <button type="button" @click="open = false"
+                    class="mt-5 border border-slate-300 bg-white text-slate-700 font-semibold px-5 py-2.5 text-sm hover:bg-slate-50 transition">
+                    Close
+                </button>
+            </div>
+
+            <form x-show="!done" @submit.prevent="submit()" class="px-6 py-5 space-y-4">
+                <div>
+                    <label for="gj-name" class="block text-sm font-semibold text-slate-700 mb-1.5">Full name</label>
+                    <input id="gj-name" type="text" x-model="form.name" placeholder="Your name"
+                        class="w-full border border-slate-300 px-3.5 py-2.5 text-sm outline-none focus:border-slate-600">
+                    <p x-show="errors.name" x-text="errors.name" class="text-xs text-red-600 mt-1"></p>
+                </div>
+
+                <div>
+                    <label for="gj-email" class="block text-sm font-semibold text-slate-700 mb-1.5">Email address</label>
+                    <input id="gj-email" type="email" x-model="form.email" placeholder="you@example.com"
+                        class="w-full border border-slate-300 px-3.5 py-2.5 text-sm outline-none focus:border-slate-600">
+                    <p x-show="errors.email" x-text="errors.email" class="text-xs text-red-600 mt-1"></p>
+                </div>
+
+                <div>
+                    <label for="gj-phone" class="block text-sm font-semibold text-slate-700 mb-1.5">Phone number</label>
+                    <div class="flex gap-2">
+                        <select x-model="form.country_code"
+                            class="w-28 shrink-0 border border-slate-300 px-2 py-2.5 text-sm outline-none focus:border-slate-600">
+                                                            <option value="+93" >
+                                    +93 Afghanistan
+                                </option>
+                                                            <option value="+355" >
+                                    +355 Albania
+                                </option>
+                                                            <option value="+213" >
+                                    +213 Algeria
+                                </option>
+                                                            <option value="+376" >
+                                    +376 Andorra
+                                </option>
+                                                            <option value="+244" >
+                                    +244 Angola
+                                </option>
+                                                            <option value="+54" >
+                                    +54 Argentina
+                                </option>
+                                                            <option value="+374" >
+                                    +374 Armenia
+                                </option>
+                                                            <option value="+61" >
+                                    +61 Australia
+                                </option>
+                                                            <option value="+43" >
+                                    +43 Austria
+                                </option>
+                                                            <option value="+994" >
+                                    +994 Azerbaijan
+                                </option>
+                                                            <option value="+1242" >
+                                    +1242 Bahamas
+                                </option>
+                                                            <option value="+973" >
+                                    +973 Bahrain
+                                </option>
+                                                            <option value="+880" >
+                                    +880 Bangladesh
+                                </option>
+                                                            <option value="+1246" >
+                                    +1246 Barbados
+                                </option>
+                                                            <option value="+375" >
+                                    +375 Belarus
+                                </option>
+                                                            <option value="+32" >
+                                    +32 Belgium
+                                </option>
+                                                            <option value="+501" >
+                                    +501 Belize
+                                </option>
+                                                            <option value="+229" >
+                                    +229 Benin
+                                </option>
+                                                            <option value="+975" >
+                                    +975 Bhutan
+                                </option>
+                                                            <option value="+591" >
+                                    +591 Bolivia
+                                </option>
+                                                            <option value="+387" >
+                                    +387 Bosnia and H
+                                </option>
+                                                            <option value="+267" >
+                                    +267 Botswana
+                                </option>
+                                                            <option value="+55" >
+                                    +55 Brazil
+                                </option>
+                                                            <option value="+673" >
+                                    +673 Brunei
+                                </option>
+                                                            <option value="+359" >
+                                    +359 Bulgaria
+                                </option>
+                                                            <option value="+226" >
+                                    +226 Burkina Faso
+                                </option>
+                                                            <option value="+257" >
+                                    +257 Burundi
+                                </option>
+                                                            <option value="+855" >
+                                    +855 Cambodia
+                                </option>
+                                                            <option value="+237" >
+                                    +237 Cameroon
+                                </option>
+                                                            <option value="+1" >
+                                    +1 Canada
+                                </option>
+                                                            <option value="+238" >
+                                    +238 Cape Verde
+                                </option>
+                                                            <option value="+235" >
+                                    +235 Chad
+                                </option>
+                                                            <option value="+56" >
+                                    +56 Chile
+                                </option>
+                                                            <option value="+86" >
+                                    +86 China
+                                </option>
+                                                            <option value="+57" >
+                                    +57 Colombia
+                                </option>
+                                                            <option value="+269" >
+                                    +269 Comoros
+                                </option>
+                                                            <option value="+242" >
+                                    +242 Congo
+                                </option>
+                                                            <option value="+506" >
+                                    +506 Costa Rica
+                                </option>
+                                                            <option value="+385" >
+                                    +385 Croatia
+                                </option>
+                                                            <option value="+53" >
+                                    +53 Cuba
+                                </option>
+                                                            <option value="+357" >
+                                    +357 Cyprus
+                                </option>
+                                                            <option value="+420" >
+                                    +420 Czech Republ
+                                </option>
+                                                            <option value="+45" >
+                                    +45 Denmark
+                                </option>
+                                                            <option value="+253" >
+                                    +253 Djibouti
+                                </option>
+                                                            <option value="+1809" >
+                                    +1809 Dominican Re
+                                </option>
+                                                            <option value="+593" >
+                                    +593 Ecuador
+                                </option>
+                                                            <option value="+20" >
+                                    +20 Egypt
+                                </option>
+                                                            <option value="+503" >
+                                    +503 El Salvador
+                                </option>
+                                                            <option value="+372" >
+                                    +372 Estonia
+                                </option>
+                                                            <option value="+251" >
+                                    +251 Ethiopia
+                                </option>
+                                                            <option value="+679" >
+                                    +679 Fiji
+                                </option>
+                                                            <option value="+358" >
+                                    +358 Finland
+                                </option>
+                                                            <option value="+33" >
+                                    +33 France
+                                </option>
+                                                            <option value="+241" >
+                                    +241 Gabon
+                                </option>
+                                                            <option value="+220" >
+                                    +220 Gambia
+                                </option>
+                                                            <option value="+995" >
+                                    +995 Georgia
+                                </option>
+                                                            <option value="+49" >
+                                    +49 Germany
+                                </option>
+                                                            <option value="+233" >
+                                    +233 Ghana
+                                </option>
+                                                            <option value="+30" >
+                                    +30 Greece
+                                </option>
+                                                            <option value="+502" >
+                                    +502 Guatemala
+                                </option>
+                                                            <option value="+224" >
+                                    +224 Guinea
+                                </option>
+                                                            <option value="+592" >
+                                    +592 Guyana
+                                </option>
+                                                            <option value="+509" >
+                                    +509 Haiti
+                                </option>
+                                                            <option value="+504" >
+                                    +504 Honduras
+                                </option>
+                                                            <option value="+852" >
+                                    +852 Hong Kong
+                                </option>
+                                                            <option value="+36" >
+                                    +36 Hungary
+                                </option>
+                                                            <option value="+354" >
+                                    +354 Iceland
+                                </option>
+                                                            <option value="+91" selected>
+                                    +91 India
+                                </option>
+                                                            <option value="+62" >
+                                    +62 Indonesia
+                                </option>
+                                                            <option value="+98" >
+                                    +98 Iran
+                                </option>
+                                                            <option value="+964" >
+                                    +964 Iraq
+                                </option>
+                                                            <option value="+353" >
+                                    +353 Ireland
+                                </option>
+                                                            <option value="+972" >
+                                    +972 Israel
+                                </option>
+                                                            <option value="+39" >
+                                    +39 Italy
+                                </option>
+                                                            <option value="+1876" >
+                                    +1876 Jamaica
+                                </option>
+                                                            <option value="+81" >
+                                    +81 Japan
+                                </option>
+                                                            <option value="+962" >
+                                    +962 Jordan
+                                </option>
+                                                            <option value="+7" >
+                                    +7 Kazakhstan
+                                </option>
+                                                            <option value="+254" >
+                                    +254 Kenya
+                                </option>
+                                                            <option value="+965" >
+                                    +965 Kuwait
+                                </option>
+                                                            <option value="+996" >
+                                    +996 Kyrgyzstan
+                                </option>
+                                                            <option value="+856" >
+                                    +856 Laos
+                                </option>
+                                                            <option value="+371" >
+                                    +371 Latvia
+                                </option>
+                                                            <option value="+961" >
+                                    +961 Lebanon
+                                </option>
+                                                            <option value="+266" >
+                                    +266 Lesotho
+                                </option>
+                                                            <option value="+231" >
+                                    +231 Liberia
+                                </option>
+                                                            <option value="+218" >
+                                    +218 Libya
+                                </option>
+                                                            <option value="+423" >
+                                    +423 Liechtenstei
+                                </option>
+                                                            <option value="+370" >
+                                    +370 Lithuania
+                                </option>
+                                                            <option value="+352" >
+                                    +352 Luxembourg
+                                </option>
+                                                            <option value="+853" >
+                                    +853 Macau
+                                </option>
+                                                            <option value="+261" >
+                                    +261 Madagascar
+                                </option>
+                                                            <option value="+265" >
+                                    +265 Malawi
+                                </option>
+                                                            <option value="+60" >
+                                    +60 Malaysia
+                                </option>
+                                                            <option value="+960" >
+                                    +960 Maldives
+                                </option>
+                                                            <option value="+223" >
+                                    +223 Mali
+                                </option>
+                                                            <option value="+356" >
+                                    +356 Malta
+                                </option>
+                                                            <option value="+222" >
+                                    +222 Mauritania
+                                </option>
+                                                            <option value="+230" >
+                                    +230 Mauritius
+                                </option>
+                                                            <option value="+52" >
+                                    +52 Mexico
+                                </option>
+                                                            <option value="+373" >
+                                    +373 Moldova
+                                </option>
+                                                            <option value="+377" >
+                                    +377 Monaco
+                                </option>
+                                                            <option value="+976" >
+                                    +976 Mongolia
+                                </option>
+                                                            <option value="+382" >
+                                    +382 Montenegro
+                                </option>
+                                                            <option value="+212" >
+                                    +212 Morocco
+                                </option>
+                                                            <option value="+258" >
+                                    +258 Mozambique
+                                </option>
+                                                            <option value="+95" >
+                                    +95 Myanmar
+                                </option>
+                                                            <option value="+264" >
+                                    +264 Namibia
+                                </option>
+                                                            <option value="+977" >
+                                    +977 Nepal
+                                </option>
+                                                            <option value="+31" >
+                                    +31 Netherlands
+                                </option>
+                                                            <option value="+64" >
+                                    +64 New Zealand
+                                </option>
+                                                            <option value="+505" >
+                                    +505 Nicaragua
+                                </option>
+                                                            <option value="+227" >
+                                    +227 Niger
+                                </option>
+                                                            <option value="+234" >
+                                    +234 Nigeria
+                                </option>
+                                                            <option value="+850" >
+                                    +850 North Korea
+                                </option>
+                                                            <option value="+389" >
+                                    +389 North Macedo
+                                </option>
+                                                            <option value="+47" >
+                                    +47 Norway
+                                </option>
+                                                            <option value="+968" >
+                                    +968 Oman
+                                </option>
+                                                            <option value="+92" >
+                                    +92 Pakistan
+                                </option>
+                                                            <option value="+970" >
+                                    +970 Palestine
+                                </option>
+                                                            <option value="+507" >
+                                    +507 Panama
+                                </option>
+                                                            <option value="+675" >
+                                    +675 Papua New Gu
+                                </option>
+                                                            <option value="+595" >
+                                    +595 Paraguay
+                                </option>
+                                                            <option value="+51" >
+                                    +51 Peru
+                                </option>
+                                                            <option value="+63" >
+                                    +63 Philippines
+                                </option>
+                                                            <option value="+48" >
+                                    +48 Poland
+                                </option>
+                                                            <option value="+351" >
+                                    +351 Portugal
+                                </option>
+                                                            <option value="+974" >
+                                    +974 Qatar
+                                </option>
+                                                            <option value="+40" >
+                                    +40 Romania
+                                </option>
+                                                            <option value="+7" >
+                                    +7 Russia
+                                </option>
+                                                            <option value="+250" >
+                                    +250 Rwanda
+                                </option>
+                                                            <option value="+966" >
+                                    +966 Saudi Arabia
+                                </option>
+                                                            <option value="+221" >
+                                    +221 Senegal
+                                </option>
+                                                            <option value="+381" >
+                                    +381 Serbia
+                                </option>
+                                                            <option value="+248" >
+                                    +248 Seychelles
+                                </option>
+                                                            <option value="+232" >
+                                    +232 Sierra Leone
+                                </option>
+                                                            <option value="+65" >
+                                    +65 Singapore
+                                </option>
+                                                            <option value="+421" >
+                                    +421 Slovakia
+                                </option>
+                                                            <option value="+386" >
+                                    +386 Slovenia
+                                </option>
+                                                            <option value="+252" >
+                                    +252 Somalia
+                                </option>
+                                                            <option value="+27" >
+                                    +27 South Africa
+                                </option>
+                                                            <option value="+82" >
+                                    +82 South Korea
+                                </option>
+                                                            <option value="+211" >
+                                    +211 South Sudan
+                                </option>
+                                                            <option value="+34" >
+                                    +34 Spain
+                                </option>
+                                                            <option value="+94" >
+                                    +94 Sri Lanka
+                                </option>
+                                                            <option value="+249" >
+                                    +249 Sudan
+                                </option>
+                                                            <option value="+46" >
+                                    +46 Sweden
+                                </option>
+                                                            <option value="+41" >
+                                    +41 Switzerland
+                                </option>
+                                                            <option value="+963" >
+                                    +963 Syria
+                                </option>
+                                                            <option value="+886" >
+                                    +886 Taiwan
+                                </option>
+                                                            <option value="+992" >
+                                    +992 Tajikistan
+                                </option>
+                                                            <option value="+255" >
+                                    +255 Tanzania
+                                </option>
+                                                            <option value="+66" >
+                                    +66 Thailand
+                                </option>
+                                                            <option value="+228" >
+                                    +228 Togo
+                                </option>
+                                                            <option value="+1868" >
+                                    +1868 Trinidad and
+                                </option>
+                                                            <option value="+216" >
+                                    +216 Tunisia
+                                </option>
+                                                            <option value="+90" >
+                                    +90 Turkey
+                                </option>
+                                                            <option value="+993" >
+                                    +993 Turkmenistan
+                                </option>
+                                                            <option value="+256" >
+                                    +256 Uganda
+                                </option>
+                                                            <option value="+380" >
+                                    +380 Ukraine
+                                </option>
+                                                            <option value="+971" >
+                                    +971 United Arab
+                                </option>
+                                                            <option value="+44" >
+                                    +44 United Kingd
+                                </option>
+                                                            <option value="+1" >
+                                    +1 United State
+                                </option>
+                                                            <option value="+598" >
+                                    +598 Uruguay
+                                </option>
+                                                            <option value="+998" >
+                                    +998 Uzbekistan
+                                </option>
+                                                            <option value="+58" >
+                                    +58 Venezuela
+                                </option>
+                                                            <option value="+84" >
+                                    +84 Vietnam
+                                </option>
+                                                            <option value="+967" >
+                                    +967 Yemen
+                                </option>
+                                                            <option value="+260" >
+                                    +260 Zambia
+                                </option>
+                                                            <option value="+263" >
+                                    +263 Zimbabwe
+                                </option>
+                                                    </select>
+
+                        <input id="gj-phone" type="tel" x-model="form.phone" placeholder="10-digit number"
+                            class="flex-1 border border-slate-300 px-3.5 py-2.5 text-sm outline-none focus:border-slate-600">
+                    </div>
+                    <p x-show="errors.phone || errors.country_code" x-text="errors.phone || errors.country_code" class="text-xs text-red-600 mt-1"></p>
+                </div>
+
+                <p x-show="failed" x-text="message" class="text-sm text-red-600 bg-red-50 border border-red-200 px-3 py-2 m-0"></p>
+
+                <button type="submit" :disabled="sending"
+                    class="w-full inline-flex items-center justify-center gap-2 bg-slate-900 text-white font-semibold px-6 py-3 hover:bg-slate-800 transition disabled:opacity-60 disabled:cursor-not-allowed">
+                    <i class="fa-solid" :class="sending ? 'fa-spinner fa-spin' : 'fa-paper-plane'"></i>
+                    <span x-text="sending ? 'Submitting…' : 'Submit'"></span>
+                </button>
+
+                <p class="text-[11px] text-slate-400 text-center m-0">
+                    We use your details only to contact you about this enquiry.
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+        <!-- Page content -->
+        <main class="flex-1">
+            
+    <style>
+        /* ===== 3D animated hero background ===== */
+        .yi-about-hero {
+            position: relative;
+            overflow: hidden;
+            background:
+                radial-gradient(circle at 18% 22%, rgba(251, 146, 60, .35), transparent 42%),
+                radial-gradient(circle at 82% 28%, rgba(245, 158, 11, .30), transparent 46%),
+                linear-gradient(135deg, #fff7ed 0%, #fffbeb 60%, #fff 100%);
+        }
+        .yi-grid-3d {
+            position: absolute; left: 50%; bottom: -40px; width: 200%; height: 300px;
+            transform: translateX(-50%) perspective(600px) rotateX(62deg);
+            background-image:
+                linear-gradient(rgba(234, 88, 12, .16) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(234, 88, 12, .16) 1px, transparent 1px);
+            background-size: 44px 44px;
+            mask-image: linear-gradient(to top, #000 20%, transparent 85%);
+            -webkit-mask-image: linear-gradient(to top, #000 20%, transparent 85%);
+            pointer-events: none;
+        }
+        .yi-blob { position: absolute; opacity: .6; filter: blur(2px); animation: yi-float 9s ease-in-out infinite; pointer-events: none; }
+        .yi-blob.b1 { width: 84px; height: 84px; top: 20%; left: 9%; background: linear-gradient(135deg, #fb923c, #f59e0b); border-radius: 22px; transform: rotate(12deg); }
+        .yi-blob.b2 { width: 58px; height: 58px; top: 30%; right: 12%; background: linear-gradient(135deg, #fbbf24, #fb923c); border-radius: 50%; animation-delay: 1.5s; }
+        .yi-blob.b3 { width: 44px; height: 44px; bottom: 22%; left: 18%; background: linear-gradient(135deg, #f59e0b, #ea580c); border-radius: 12px; transform: rotate(-18deg); animation-delay: 3s; }
+        @keyframes yi-float { 0%,100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-20px) rotate(8deg); } }
+
+        /* card 3D tilt */
+        .yi-card { transition: transform .3s cubic-bezier(.2,.8,.2,1), box-shadow .3s ease, border-color .3s ease; }
+        .yi-card:hover { transform: translateY(-6px) rotateX(3deg) rotateY(-3deg); box-shadow: 0 26px 50px -24px rgba(234,88,12,.32); }
+
+        .yi-prose p { color: #475569; line-height: 1.8; margin-bottom: 1rem; }
+        .yi-prose strong { color: #0f172a; }
+    </style>
+
+    
+    <section class="relative overflow-hidden">
+        
+
+        
+        <div class="absolute inset-0 z-[1] bg-gradient-to-b from-black/75 via-black/65 to-black/80"></div>
+        
+        <div class="absolute inset-0 z-[2] bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.45)_0%,transparent_70%)]"></div>
+
+        
+        <div class="relative z-20 max-w-4xl mx-auto px-4 py-20 lg:py-28 text-center">
+            <nav class="text-sm text-slate-200 mb-5">
+                <a href="/" class="hover:text-amber-400">Home</a>
+                <span class="mx-2 text-slate-400">/</span>
+                <span class="text-amber-400 font-semibold">About Us</span>
+            </nav>
+            <span class="inline-flex items-center gap-2 bg-white/10 backdrop-blur border border-white/20 text-amber-300 text-xs font-bold tracking-widest uppercase px-4 py-2 rounded-full mb-5 shadow-lg">
+                <span class="relative flex h-2 w-2">
+                    <span class="absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75 animate-ping"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-orange-500"></span>
+                </span>
+                Who We Are
+            </span>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-4 drop-shadow-2xl">
+                About <span class="text-amber-400">AranganadhaKalvi</span>
+            </h1>
+            <p class="text-slate-100 text-xl sm:text-2xl max-w-3xl mx-auto drop-shadow-lg">
+                India’s internship platform — bridging the gap between theory and real-world work.
+            </p>
+        </div>
+    </section>
+
+    
+    <section class="max-w-4xl mx-auto px-4 py-14">
+        <div class="yi-prose text-lg sm:text-xl">
+            <p>
+                AranganadhaKalvi is India’s internship platform, designed to bridge the gap between theoretical
+                knowledge and real-world job responsibilities. We believe that the most effective way to explore a career is to
+                <strong>experience the day-to-day tasks, challenges, and achievements</strong> that shape it. By partnering with
+                industry experts, we have created a unique program
+                that brings hands-on experiences right to your doorstep.
+            </p>
+            <p>
+                Our platform allows you to test-drive different roles, so you can
+                make confident career decisions. We firmly believe in <em>“learning by doing”</em>, which is why every internship is
+                aligned with <strong>actual job descriptions</strong>. Whether you’re a student or a career switcher, AranganadhaKalvi helps
+                you gain relevant skills, insights, and confidence to find your professional calling.
+            </p>
+            <p>
+                From the comfort of your home, you can complete each internship at your own pace, without the hassle of relocation or
+                traffic jams. Upon enrollment, we issue instant offer letters—ensuring you can get started right away.
+                <strong>No more waiting</strong> for extended application processes. AranganadhaKalvi makes it simple: enroll, immerse, and learn.
+            </p>
+            <p>
+                Once you’ve successfully completed your internship, you’ll receive an
+                <strong>industry-recognized certification</strong> endorsed by MSME and AranganadhaKalvi. This valuable credential not only
+                enhances your resume but also showcases your commitment to personal growth and professional excellence.
+            </p>
+        </div>
+    </section>
+
+    
+    <section class="max-w-7xl mx-auto px-4 pb-4">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch">
+            <div class="yi-card flex flex-col h-full rounded-3xl p-8 bg-gradient-to-br from-amber-50 to-orange-50 border border-amber-100">
+                <span class="w-12 h-12 rounded-2xl bg-amber-500 text-white grid place-items-center text-xl mb-4"><i class="fa-solid fa-eye"></i></span>
+                <h3 class="text-2xl font-extrabold text-slate-900 mb-3">Our Vision</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    A future where every student can explore diverse career paths <strong class="text-slate-900">without barriers</strong> —
+                    geographical, financial, or experiential. By integrating technology with expert-designed simulations, we aim to create a
+                    robust ecosystem of skilled, aware, and confident professionals, and spark a nationwide movement of experiential learning.
+                </p>
+            </div>
+            <div class="yi-card flex flex-col h-full rounded-3xl p-8 bg-gradient-to-br from-orange-50 to-amber-50 border border-amber-100">
+                <span class="w-12 h-12 rounded-2xl bg-orange-600 text-white grid place-items-center text-xl mb-4"><i class="fa-solid fa-bullseye"></i></span>
+                <h3 class="text-2xl font-extrabold text-slate-900 mb-3">Our Mission</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    To <strong class="text-slate-900">revolutionize the internship model</strong> by making it accessible, practical, and
+                    rewarding. By focusing on real KRAs rather than mundane tasks, we ensure our interns acquire the core competencies and
+                    hands-on understanding needed to excel — empowering the youth of India, one simulation internship at a time.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section class="bg-slate-50/70 py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <span class="inline-block bg-amber-100 text-amber-700 text-xs font-bold tracking-widest uppercase px-4 py-1.5 rounded-full mb-3">Benefits</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Why Choose AranganadhaKalvi?</h2>
+            </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                                    <div class="yi-card flex items-start gap-4 bg-white border border-slate-100 rounded-2xl p-5">
+                        <span class="w-11 h-11 shrink-0 rounded-xl bg-amber-100 text-amber-600 grid place-items-center text-lg"><i class="fa-solid fa-envelope-open-text"></i></span>
+                        <div>
+                            <h4 class="font-bold text-slate-900 mb-1">Instant Offer Letters</h4>
+                            <p class="text-sm text-slate-500 leading-relaxed">Receive your offer letter as soon as you enroll, cutting down on waiting periods.</p>
+                        </div>
+                    </div>
+                                    <div class="yi-card flex items-start gap-4 bg-white border border-slate-100 rounded-2xl p-5">
+                        <span class="w-11 h-11 shrink-0 rounded-xl bg-amber-100 text-amber-600 grid place-items-center text-lg"><i class="fa-solid fa-briefcase"></i></span>
+                        <div>
+                            <h4 class="font-bold text-slate-900 mb-1">Real-World Experience</h4>
+                            <p class="text-sm text-slate-500 leading-relaxed">Perform tasks aligned with actual job descriptions instead of generic assignments.</p>
+                        </div>
+                    </div>
+                                    <div class="yi-card flex items-start gap-4 bg-white border border-slate-100 rounded-2xl p-5">
+                        <span class="w-11 h-11 shrink-0 rounded-xl bg-amber-100 text-amber-600 grid place-items-center text-lg"><i class="fa-solid fa-certificate"></i></span>
+                        <div>
+                            <h4 class="font-bold text-slate-900 mb-1">Recognized Certification</h4>
+                            <p class="text-sm text-slate-500 leading-relaxed">Get certified by MSME and AranganadhaKalvi, boosting your credibility.</p>
+                        </div>
+                    </div>
+                                    <div class="yi-card flex items-start gap-4 bg-white border border-slate-100 rounded-2xl p-5">
+                        <span class="w-11 h-11 shrink-0 rounded-xl bg-amber-100 text-amber-600 grid place-items-center text-lg"><i class="fa-solid fa-plane-departure"></i></span>
+                        <div>
+                            <h4 class="font-bold text-slate-900 mb-1">Work in Any Field</h4>
+                            <p class="text-sm text-slate-500 leading-relaxed">Access internships without relocation or travel hassles.</p>
+                        </div>
+                    </div>
+                                    <div class="yi-card flex items-start gap-4 bg-white border border-slate-100 rounded-2xl p-5">
+                        <span class="w-11 h-11 shrink-0 rounded-xl bg-amber-100 text-amber-600 grid place-items-center text-lg"><i class="fa-solid fa-folder-open"></i></span>
+                        <div>
+                            <h4 class="font-bold text-slate-900 mb-1">Explore Multiple Fields</h4>
+                            <p class="text-sm text-slate-500 leading-relaxed">Try out python, genai, and more.</p>
+                        </div>
+                    </div>
+                                    <div class="yi-card flex items-start gap-4 bg-white border border-slate-100 rounded-2xl p-5">
+                        <span class="w-11 h-11 shrink-0 rounded-xl bg-amber-100 text-amber-600 grid place-items-center text-lg"><i class="fa-solid fa-lightbulb"></i></span>
+                        <div>
+                            <h4 class="font-bold text-slate-900 mb-1">Make Informed Decisions</h4>
+                            <p class="text-sm text-slate-500 leading-relaxed">Test a career before committing long-term.</p>
+                        </div>
+                    </div>
+                                    <div class="yi-card flex items-start gap-4 bg-white border border-slate-100 rounded-2xl p-5">
+                        <span class="w-11 h-11 shrink-0 rounded-xl bg-amber-100 text-amber-600 grid place-items-center text-lg"><i class="fa-solid fa-clock"></i></span>
+                        <div>
+                            <h4 class="font-bold text-slate-900 mb-1">Flexible Schedules</h4>
+                            <p class="text-sm text-slate-500 leading-relaxed">Complete your simulation internship at your convenience.</p>
+                        </div>
+                    </div>
+                                    <div class="yi-card flex items-start gap-4 bg-white border border-slate-100 rounded-2xl p-5">
+                        <span class="w-11 h-11 shrink-0 rounded-xl bg-amber-100 text-amber-600 grid place-items-center text-lg"><i class="fa-solid fa-chalkboard-user"></i></span>
+                        <div>
+                            <h4 class="font-bold text-slate-900 mb-1">Enhance Your Resume</h4>
+                            <p class="text-sm text-slate-500 leading-relaxed">Showcase verified experience from trusted organizations.</p>
+                        </div>
+                    </div>
+                                    <div class="yi-card flex items-start gap-4 bg-white border border-slate-100 rounded-2xl p-5">
+                        <span class="w-11 h-11 shrink-0 rounded-xl bg-amber-100 text-amber-600 grid place-items-center text-lg"><i class="fa-solid fa-users"></i></span>
+                        <div>
+                            <h4 class="font-bold text-slate-900 mb-1">Learn from Experts</h4>
+                            <p class="text-sm text-slate-500 leading-relaxed">Simulations designed by professionals with deep domain expertise.</p>
+                        </div>
+                    </div>
+                                    <div class="yi-card flex items-start gap-4 bg-white border border-slate-100 rounded-2xl p-5">
+                        <span class="w-11 h-11 shrink-0 rounded-xl bg-amber-100 text-amber-600 grid place-items-center text-lg"><i class="fa-solid fa-list-check"></i></span>
+                        <div>
+                            <h4 class="font-bold text-slate-900 mb-1">Real KRAs, Not Coffee Runs</h4>
+                            <p class="text-sm text-slate-500 leading-relaxed">Tackle responsibilities from real job descriptions.</p>
+                        </div>
+                    </div>
+                                    <div class="yi-card flex items-start gap-4 bg-white border border-slate-100 rounded-2xl p-5">
+                        <span class="w-11 h-11 shrink-0 rounded-xl bg-amber-100 text-amber-600 grid place-items-center text-lg"><i class="fa-solid fa-house-laptop"></i></span>
+                        <div>
+                            <h4 class="font-bold text-slate-900 mb-1">Intern from Anywhere</h4>
+                            <p class="text-sm text-slate-500 leading-relaxed">Learn and gain experience from the comfort of your home.</p>
+                        </div>
+                    </div>
+                                    <div class="yi-card flex items-start gap-4 bg-white border border-slate-100 rounded-2xl p-5">
+                        <span class="w-11 h-11 shrink-0 rounded-xl bg-amber-100 text-amber-600 grid place-items-center text-lg"><i class="fa-solid fa-circle-question"></i></span>
+                        <div>
+                            <h4 class="font-bold text-slate-900 mb-1">Informed Career Choices</h4>
+                            <p class="text-sm text-slate-500 leading-relaxed">Understand what a job truly involves before stepping into it.</p>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </section>
+
+    
+    <section class="max-w-7xl mx-auto px-4 py-16">
+        <div class="text-center mb-12">
+            <span class="inline-block bg-amber-100 text-amber-700 text-xs font-bold tracking-widest uppercase px-4 py-1.5 rounded-full mb-3">The Journey</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Fast &amp; Easy Process</h2>
+        </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div class="yi-card relative bg-white border border-slate-100 rounded-2xl p-6 pt-8">
+                    <span class="absolute -top-4 left-6 w-10 h-10 rounded-xl bg-gradient-to-br from-orange-600 to-amber-500 text-white grid place-items-center font-bold shadow-lg">1</span>
+                    <h5 class="flex items-center gap-2 font-bold text-slate-900 mb-2"><i class="fa-solid fa-clock text-amber-600"></i> Apply &amp; Get Offer Letter</h5>
+                    <p class="text-sm text-slate-500 leading-relaxed">Start immediately with instant confirmation. No more waiting for months or endless follow-ups.</p>
+                </div>
+                            <div class="yi-card relative bg-white border border-slate-100 rounded-2xl p-6 pt-8">
+                    <span class="absolute -top-4 left-6 w-10 h-10 rounded-xl bg-gradient-to-br from-orange-600 to-amber-500 text-white grid place-items-center font-bold shadow-lg">2</span>
+                    <h5 class="flex items-center gap-2 font-bold text-slate-900 mb-2"><i class="fa-solid fa-laptop-code text-amber-600"></i> Complete Job Simulation</h5>
+                    <p class="text-sm text-slate-500 leading-relaxed">Perform hands-on, real-world tasks that mirror the challenges of the actual role.</p>
+                </div>
+                            <div class="yi-card relative bg-white border border-slate-100 rounded-2xl p-6 pt-8">
+                    <span class="absolute -top-4 left-6 w-10 h-10 rounded-xl bg-gradient-to-br from-orange-600 to-amber-500 text-white grid place-items-center font-bold shadow-lg">3</span>
+                    <h5 class="flex items-center gap-2 font-bold text-slate-900 mb-2"><i class="fa-solid fa-trophy text-amber-600"></i> Earn Your Certificate</h5>
+                    <p class="text-sm text-slate-500 leading-relaxed">Receive an MSME-certified experience certificate that validates your hard work.</p>
+                </div>
+                            <div class="yi-card relative bg-white border border-slate-100 rounded-2xl p-6 pt-8">
+                    <span class="absolute -top-4 left-6 w-10 h-10 rounded-xl bg-gradient-to-br from-orange-600 to-amber-500 text-white grid place-items-center font-bold shadow-lg">4</span>
+                    <h5 class="flex items-center gap-2 font-bold text-slate-900 mb-2"><i class="fa-solid fa-chart-line text-amber-600"></i> Boost Your Career</h5>
+                    <p class="text-sm text-slate-500 leading-relaxed">Add recognized experience to your LinkedIn profile and resume.</p>
+                </div>
+                            <div class="yi-card relative bg-white border border-slate-100 rounded-2xl p-6 pt-8">
+                    <span class="absolute -top-4 left-6 w-10 h-10 rounded-xl bg-gradient-to-br from-orange-600 to-amber-500 text-white grid place-items-center font-bold shadow-lg">5</span>
+                    <h5 class="flex items-center gap-2 font-bold text-slate-900 mb-2"><i class="fa-solid fa-globe text-amber-600"></i> No Boundaries</h5>
+                    <p class="text-sm text-slate-500 leading-relaxed">Access from anywhere in India, right from your home — minus the commute.</p>
+                </div>
+                            <div class="yi-card relative bg-white border border-slate-100 rounded-2xl p-6 pt-8">
+                    <span class="absolute -top-4 left-6 w-10 h-10 rounded-xl bg-gradient-to-br from-orange-600 to-amber-500 text-white grid place-items-center font-bold shadow-lg">6</span>
+                    <h5 class="flex items-center gap-2 font-bold text-slate-900 mb-2"><i class="fa-solid fa-chart-bar text-amber-600"></i> Track Your Progress</h5>
+                    <p class="text-sm text-slate-500 leading-relaxed">Monitor your growth, receive feedback, and gain the confidence to excel.</p>
+                </div>
+                            <div class="yi-card relative bg-white border border-slate-100 rounded-2xl p-6 pt-8">
+                    <span class="absolute -top-4 left-6 w-10 h-10 rounded-xl bg-gradient-to-br from-orange-600 to-amber-500 text-white grid place-items-center font-bold shadow-lg">7</span>
+                    <h5 class="flex items-center gap-2 font-bold text-slate-900 mb-2"><i class="fa-solid fa-lightbulb text-amber-600"></i> Career Clarity</h5>
+                    <p class="text-sm text-slate-500 leading-relaxed">Understand if a career is right for you before making a long-term commitment.</p>
+                </div>
+                            <div class="yi-card relative bg-white border border-slate-100 rounded-2xl p-6 pt-8">
+                    <span class="absolute -top-4 left-6 w-10 h-10 rounded-xl bg-gradient-to-br from-orange-600 to-amber-500 text-white grid place-items-center font-bold shadow-lg">8</span>
+                    <h5 class="flex items-center gap-2 font-bold text-slate-900 mb-2"><i class="fa-solid fa-sitemap text-amber-600"></i> Multiple Fields Available</h5>
+                    <p class="text-sm text-slate-500 leading-relaxed">Choose from python, genai, and more.</p>
+                </div>
+                            <div class="yi-card relative bg-white border border-slate-100 rounded-2xl p-6 pt-8">
+                    <span class="absolute -top-4 left-6 w-10 h-10 rounded-xl bg-gradient-to-br from-orange-600 to-amber-500 text-white grid place-items-center font-bold shadow-lg">9</span>
+                    <h5 class="flex items-center gap-2 font-bold text-slate-900 mb-2"><i class="fa-solid fa-building text-amber-600"></i> Industry Partners</h5>
+                    <p class="text-sm text-slate-500 leading-relaxed">Work on projects created in collaboration with top companies.</p>
+                </div>
+                    </div>
+    </section>
+
+    
+    <section class="max-w-7xl mx-auto px-4 py-16">
+        <div class="relative overflow-hidden rounded-3xl bg-gradient-to-r from-orange-600 to-amber-600 px-6 sm:px-14 py-14 text-center text-white">
+            <span class="pointer-events-none absolute -top-10 -right-10 w-48 h-48 rounded-full bg-white/10"></span>
+            <span class="pointer-events-none absolute -bottom-12 -left-8 w-40 h-40 rounded-full bg-white/10"></span>
+            <h2 class="relative text-3xl sm:text-4xl font-extrabold mb-3"><i class="fa-solid fa-thumbs-up mr-2"></i> Ready to Begin?</h2>
+            <p class="relative text-orange-50 max-w-2xl mx-auto mb-8">
+                Experience is the best teacher — dive into our job simulation platform, explore multiple career tracks, and graduate with the
+                certainty that you’ve found a path you truly resonate with. Your dream internship awaits.
+            </p>
+            <a href="/search-internship"
+                class="relative inline-flex items-center gap-2 rounded-xl bg-white text-orange-700 font-bold px-8 py-4 hover:bg-orange-50 hover:-translate-y-0.5 transition">
+                <i class="fa-solid fa-door-open"></i> Enroll Now &amp; Start Your Journey
+            </a>
+        </div>
+    </section>
+
+        </main>
+
+
+
+        <!-- Closing CTA, above the footer -->
+        <section class="max-w-7xl mx-auto px-4 mt-16">
+    <div class="bg-slate-200 rounded-xl px-6 sm:px-8 py-7 flex flex-col lg:flex-row lg:items-center gap-6">
+        <div class="flex-1">
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight m-0">
+                Start Your Free Internship Today
+            </h2>
+            <p class="text-sm sm:text-base text-slate-600 mt-2 m-0">
+                Gain real-world skills, work on live projects and get
+                an msme-affiliated certificate &mdash; absolutely free!
+            </p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-3 shrink-0">
+            <a href="/search-internship.html"
+                class="inline-flex items-center justify-center gap-2 rounded-full bg-slate-800 text-white font-semibold px-6 py-3 text-sm hover:bg-slate-900 transition">
+                <i class="fa-solid fa-magnifying-glass text-xs"></i> Explore Internships
+                <i class="fa-solid fa-arrow-right text-xs"></i>
+            </a>
+
+                            <a href="/registration.html"
+                    class="inline-flex items-center justify-center gap-2 rounded-full bg-white border border-slate-300 text-slate-800 font-semibold px-6 py-3 text-sm hover:bg-slate-50 transition">
+                    <i class="fa-solid fa-rocket text-xs"></i> Get Started
+                    <i class="fa-solid fa-arrow-right text-xs"></i>
+                </a>
+                    </div>
+    </div>
+</section>
+
+
+
+<!-- Footer (Tailwind) -->
+        <footer class="bg-gray-100 border-t border-gray-200 mt-16">
+    <div class="max-w-7xl mx-auto px-4 py-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+
+            
+            <div class="col-span-2 lg:col-span-2">
+                <img src="/assets/img/logo.png" class="h-8 w-auto mb-2" alt="AranganadhaKalvi">
+                <p class="text-sm text-slate-500 leading-snug mb-3 max-w-xs">
+                    India’s free virtual internship platform for students &amp; freshers.
+                </p>
+                <div class="flex items-center gap-2">
+                    <!-- <a href="https://www.instagram.com/AranganadhaKalvi/?hl=en" target="_blank" rel="noopener" aria-label="Instagram" class="w-8 h-8 rounded-full bg-white border border-gray-300 grid place-items-center text-slate-500 hover:text-white hover:bg-orange-600 hover:border-orange-600 transition"><i class="fab fa-instagram text-sm"></i></a> -->
+                    <!-- <a href="https://www.linkedin.com/company/AranganadhaKalvi/" target="_blank" rel="noopener" aria-label="LinkedIn" class="w-8 h-8 rounded-full bg-white border border-gray-300 grid place-items-center text-slate-500 hover:text-white hover:bg-orange-600 hover:border-orange-600 transition"><i class="fab fa-linkedin-in text-sm"></i></a> -->
+                    <a href="https://www.youtube.com/@AranganadhaKalvi?reload=9" target="_blank" rel="noopener" aria-label="YouTube" class="w-8 h-8 rounded-full bg-white border border-gray-300 grid place-items-center text-slate-500 hover:text-white hover:bg-orange-600 hover:border-orange-600 transition"><i class="fab fa-youtube text-sm"></i></a>
+                    <!-- <a href="https://x.com/AranganadhaKalvi?lang=en" target="_blank" rel="noopener" aria-label="X (Twitter)" class="w-8 h-8 rounded-full bg-white border border-gray-300 grid place-items-center text-slate-500 hover:text-white hover:bg-orange-600 hover:border-orange-600 transition"><i class="fab fa-x-twitter text-sm"></i></a> -->
+                </div>
+            </div>
+
+            
+            <div>
+                <h5 class="text-slate-900 font-bold text-sm mb-3">Top Sectors</h5>
+                <ul class="space-y-2 list-none p-0 m-0">
+                                            <li><a href="/sector/python.html" class="text-sm text-slate-500 hover:text-orange-600 transition">Internships in Python</a></li>
+                                            <li><a href="/sector/genai.html" class="text-sm text-slate-500 hover:text-orange-600 transition">Internships in Generative AI</a></li>
+                                            
+                                        <li><a href="/sectors.html" class="text-sm font-semibold text-orange-600 hover:text-orange-700 transition">View all sectors</a></li>
+                </ul>
+            </div>
+
+
+<!-- Quick Links -->
+            <div>
+                <h5 class="text-slate-900 font-bold text-sm mb-3">Quick Links</h5>
+                <ul class="space-y-2 list-none p-0 m-0">
+                    <li><a href="/search-internship.html" class="text-sm text-slate-500 hover:text-orange-600 transition">Internships</a></li>
+                    
+                    <!-- <li><a href="https://www.aranganadhakalvi.com/about-us" class="text-sm text-slate-500 hover:text-orange-600 transition">Success Stories</a></li> -->
+                    <!-- <li><a href="https://www.aranganadhakalvi.com/contact-us" class="text-sm text-slate-500 hover:text-orange-600 transition">Contact Us</a></li> -->
+                </ul>
+            </div>
+
+
+<!-- Company -->
+            <div>
+                <h5 class="text-slate-900 font-bold text-sm mb-3">Company</h5>
+                <ul class="space-y-2 list-none p-0 m-0">
+                    <li><a href="/about-us.html" class="text-sm text-slate-500 hover:text-orange-600 transition">About Us</a></li>
+                    <li><a href="/privacy-policy.html" class="text-sm text-slate-500 hover:text-orange-600 transition">Privacy Policy</a></li>
+                    <li><a href="/contact-us.html" class="text-sm text-slate-500 hover:text-orange-600 transition">Contact Us</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 py-3 text-center">
+            <p class="text-xs text-slate-500 m-0">© 2026 AranganadhaKalvi. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+
+        <!-- Back to top -->
+        <a id="back2Top" href="#" title="Back to top"
+            class="fixed bottom-6 right-6 z-[900] w-11 h-11 rounded-full bg-blue-600 text-white grid place-items-center shadow-lg hover:bg-blue-700 transition">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+
+    <!-- jQuery + Popper + Bootstrap JS (kept so Bootstrap modals keep working) -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/assets/js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Alpine.js (for header dropdown / mobile menu) -->
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <!-- Live internship search (same as Bootstrap layout) -->
+    <script>
+        function searchInternships(value) {
+            if (value.length > 0) {
+                $.ajax({
+                    url: "https://www.aranganadhakalvi.com/search",
+                    type: "GET",
+                    data: { "search": value },
+                    success: function(response) {
+                        $('#search_results').html('');
+                        response.forEach(element => {
+                            $('#search_results').append('<li><a class="block px-4 py-3 text-sm font-semibold border-b border-slate-100 last:border-0 hover:bg-blue-50 hover:text-blue-600" href="/internship/' + element.slug + '">' + element.title + ' : ' + element.sector.name + '</a></li>');
+                        });
+                    }
+                });
+            } else {
+                $('#search_results').html('');
+            }
+        }
+    </script>
+
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v3d52b47920f24c319d37e2661827c42b1787588026925" integrity="sha512-d9sL6GJLXn6fInD1+TVXhTcQOsmxeHfmHAvwGDIxp5TO+uo1fiWW7mHomMj4MLRlCsJDTqXzWLHJFFlPCEIj/A==" data-cf-beacon='{"version":"2024.11.0","token":"4174382b9ebb4cce95c33949f689a79f","r":1}' crossorigin="anonymous"></script>
+</body>
+
+</html>
